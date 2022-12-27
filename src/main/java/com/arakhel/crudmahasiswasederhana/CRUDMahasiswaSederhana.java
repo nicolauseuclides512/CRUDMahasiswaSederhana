@@ -5,6 +5,7 @@
 
 package com.arakhel.crudmahasiswasederhana;
 
+import crudmahasiswasederhana.views.DaftarMahasiswa;
 import crudmahasiswasederhana.views.MahasiswaFrame;
 import javax.swing.SwingUtilities;
 
@@ -17,7 +18,7 @@ public class CRUDMahasiswaSederhana {
     public static void main(String[] args) {
         SwingUtilities.invokeLater(new Runnable(){
             public void run(){
-                MahasiswaFrame form = new MahasiswaFrame();
+                DaftarMahasiswa form = new DaftarMahasiswa();
                 form.setLocationRelativeTo(null);
                 form.setVisible(true);
             }
